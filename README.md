@@ -13,6 +13,31 @@
 ![p14](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/dc237353-26a6-499f-ac54-cf7b8f543ec4)
 ![p15](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/f8d0b704-6c51-45b8-b309-f61d6e329b68)
 ![p16](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/9f99367d-ec6f-4b2d-9ab2-dc865aae4ee3)
+Öncelikle tüm kodların çalıştırılması için python ve pyqt5 kurulu olmalıdır.
+Kullanıcı adı ve şifreyi girdikten sonra giriş yap butonuna tıklayarak sisteme giriş yapabilirsiniz.Film adı alanına film ismi yazıp film ekle butonuna basarak izleme geçmişinize film ekleyin ve izleme geçmişinizdeki bir filme tıklayarak o filmi favorilerinize ekleyebilirsiniz.
+
+Teknik Detaylar
+
+Film Sınıfı (Film):
+
+film_adı: Film adı.
+film_yönetmeni: Film yönetmeni.
+film_imdb: Film IMDb puanı.
+süre: Film süresi .
+film_türü: Film türü.
+
+Kullanıcı Sınıfı (Kullanıcı):
+
+kullanici_adi: Kullanıcı adı.
+kullanici_sifre: Kullanıcı şifresi.
+izleme_gecmisi: Kullanıcının izleme geçmişi.
+favori_filmler: Kullanıcının favori filmleri listesi.
+
+Film İzleme Servisi Sınıfı (FilmIzlemeServisi):
+
+Arayüz ve iş mantığını bir araya getiren ana sınıf.
+Kullanıcı girişini yönetir, film eklemesini sağlar, izleme geçmişini ve favori filmleri görüntüler.
+
 ![p17](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/eb075f47-8ec8-42c2-abba-d25eb950179d)
 ![p18](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/161f960c-7301-4232-972a-ba1035676faa)
 ![p20s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/d9bcb735-e266-4daf-a3a8-9c2e196589c9)
