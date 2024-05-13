@@ -13,6 +13,7 @@
 ![p14](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/dc237353-26a6-499f-ac54-cf7b8f543ec4)
 ![p15](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/f8d0b704-6c51-45b8-b309-f61d6e329b68)
 ![p16](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/9f99367d-ec6f-4b2d-9ab2-dc865aae4ee3)
+
 Öncelikle tüm kodların çalıştırılması için python ve pyqt5 kurulu olmalıdır.
 Kullanıcı adı ve şifreyi girdikten sonra giriş yap butonuna tıklayarak sisteme giriş yapabilirsiniz.Film adı alanına film ismi yazıp film ekle butonuna basarak izleme geçmişinize film ekleyin ve izleme geçmişinizdeki bir filme tıklayarak o filmi favorilerinize ekleyebilirsiniz.
 
@@ -39,6 +40,7 @@ Arayüz ve iş mantığını bir araya getiren ana sınıf.
 Kullanıcı girişini yönetir, film eklemesini sağlar, izleme geçmişini ve favori filmleri görüntüler.
 
 ![p17](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/eb075f47-8ec8-42c2-abba-d25eb950179d)
+
 İstenilen bilgiler girilip kaydet butonuna basıldıktan sonra öğrencinin adı,soyadı, dersi, ders kaynağı ve öğretmeni bilgileri ekranda çıkar.
 
 Teknik Detaylar
@@ -50,6 +52,7 @@ Teknik Detaylar
 5.QVBoxLayout kullanılarak dikey bir düzen (layout) oluşturulur ve widget'lar bu düzene eklenir.
 
 ![p18](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/161f960c-7301-4232-972a-ba1035676faa)
+
 Olay ekle, şahsiyet ekle,dönem ekle pencereleindeki girdileri kaydettikten sona kayıtları görüntüle butonuna basarak bilgilere toplu halde ulaşabilirsiniz.
 
 Teknik Detaylar
@@ -92,6 +95,21 @@ show(): Ana pencereyi görüntüler.
 
 ![p19s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/32954303-709f-47ba-8372-2f3de0121fdc)
 
+Restoran çalışanları yeni ürün bilgilerini girer ve "Ürünü Kaydet" düğmesine basarak kaydeder.
+Bu ürünler "Ürün Adı - Fiyatı" formatında müşteri arayüzünde listelenir.Müşteriler listeden bir ürün seçer ve ad-soyad ile adres bilgilerini girerek "Sipariş Ver" düğmesine basar.
+Seçilen ürün ve müşteri bilgileri sipariş detayları penceresinde görüntülenir.Sipariş detayları penceresinde müşteri bilgileri, sipariş edilen ürün ve toplam tutar bilgilerini gösterir.
 
+RestaurantCustomerApp (Restoran Müşteri Uygulaması Sınıfı):
 
+__init__: Ana pencere ve bileşenlerini oluşturur.
+  Restoran ve Müşteri arayüzlerini hazırlar.
+  Restoran arayüzüne ürün bilgileri girilip kaydedilebilir.
+  Müşteri arayüzü, seçilen ürünle birlikte müşteri bilgilerini alarak siparişi tamamlamayı sağlar.
+save_product: Restoran arayüzünden girilen ürün bilgilerini alıp listeye ekler.
+show_order_details: Müşteri bilgileri ve seçilen ürünü içeren sipariş detaylarını göstermek için sipariş detayları penceresini açar.
+
+OrderDetailsWindow (Sipariş Detayları Penceresi Sınıfı):
+
+__init__: Sipariş detayları penceresini oluşturur.
+display_order_details: Verilen sipariş detaylarını pencereye yazar.
 
