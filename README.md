@@ -15,5 +15,7 @@
 ![p16](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/9f99367d-ec6f-4b2d-9ab2-dc865aae4ee3)
 ![p17](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/eb075f47-8ec8-42c2-abba-d25eb950179d)
 ![p18](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/161f960c-7301-4232-972a-ba1035676faa)
-![p19](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/b68ae8a1-1bff-49ec-a62f-f1d746d76671)
-![p20](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/12e0b243-84a2-42d3-9233-d97d81c664d7)
+![p20s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/d9bcb735-e266-4daf-a3a8-9c2e196589c9)
+![p19s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/32954303-709f-47ba-8372-2f3de0121fdc)
+
+
