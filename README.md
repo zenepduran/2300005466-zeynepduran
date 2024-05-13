@@ -50,7 +50,48 @@ Teknik Detaylar
 5.QVBoxLayout kullanılarak dikey bir düzen (layout) oluşturulur ve widget'lar bu düzene eklenir.
 
 ![p18](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/161f960c-7301-4232-972a-ba1035676faa)
+Olay ekle, şahsiyet ekle,dönem ekle pencereleindeki girdileri kaydettikten sona kayıtları görüntüle butonuna basarak bilgilere toplu halde ulaşabilirsiniz.
+
+Teknik Detaylar
+
+Ana Pencere (AnaPencere)
+Ana pencere, QTabWidget kullanarak üç farklı sekme içerir: Olay Ekle, Şahsiyet Ekle, ve Dönem Ekle.
+Her sekme, kullanıcıdan bilgi girmesini ve bu bilgileri kaydetmesini bekler.
+"Kayıtları Görüntüle" düğmesi, kaydedilen bilgileri görüntülemek için kullanılır.
+
+Bilgi Giriş Pencereleri (OlayEklePenceresi, SahsiyetEklePenceresi, DonemEklePenceresi)
+Her bilgi giriş penceresi, belirli türdeki bilgileri girmek için kullanılır (Olay, Şahsiyet, Dönem).
+Bilgiler girildikten sonra "Kaydet" düğmesi ile ana pencereye bu bilgiler iletilir.
+
+Kayıtları Görüntüleme Penceresi (GoruntulePenceresi)
+"Kayıtları Görüntüle" düğmesine tıklandığında, bu pencere açılır.
+Olaylar, Şahsiyetler ve Dönemler için ayrı ayrı listeler oluşturulur ve kullanıcının kaydedilen bilgileri görmesi sağlanır.
+
 ![p20s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/d9bcb735-e266-4daf-a3a8-9c2e196589c9)
+
+Oyun adı,türü ve platformunu girip oyun ekle'ye her bastığınızda 'oynadığı oyunlar kısmına bu oyunlar eklecektir. İçlerinden bir oyun seçip 'favoriye ekle'ye astığınızda 'favori oyunlar listesi' oluşur. Oyuncu adını girip oyuncu ekle'ye bastığınızda da oyuncunun adı,oynadığı oyunlar ve favori oyunlar taablosu sizi karşılar.
+
+Teknik Detaylar
+
+Uygulama, aşağıdaki bileşenlerden oluşur:
+
+QApplication: PyQt5 uygulamasını temsil eden ana uygulama nesnesi.
+QWidget: Ana pencereyi oluşturan ve temel işlevleri sağlayan PyQt5 bileşeni.
+QVBoxLayout ve QHBoxLayout: Dikey ve yatay düzenler oluşturmak için kullanılan düzen nesneleri.
+QLabel, QLineEdit, QPushButton, QListWidget, QListWidgetItem: Arayüzde metin, düzenleme kutusu, düğme ve liste öğeleri oluşturmak için PyQt5 bileşenleri.
+Ana Fonksiyonlar
+add_game(): Oyun eklemek için kullanılan fonksiyon. Girilen oyun bilgilerini alır ve "Oynadığı Oyunlar" listesine ekler.
+add_to_favorite(): Seçilen oyunları "Favori Oyunlar" listesine taşır.
+add_player(): Yeni bir oyuncu eklemek için kullanılan fonksiyon. Oyuncunun adını, oynadığı ve favori oyunlarını kaydeder.
+show_player_info(): Oyuncu bilgilerini içeren iletişim kutusunu görüntüler.
+Uygulamanın Çalıştırılması
+QApplication: PyQt5 uygulamasını başlatır.
+VideoGameCollectionApp: Ana uygulama penceresini oluşturan ve başlatan sınıf.
+show(): Ana pencereyi görüntüler.
+
+
 ![p19s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/32954303-709f-47ba-8372-2f3de0121fdc)
+
+
 
 
