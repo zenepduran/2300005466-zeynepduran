@@ -39,6 +39,16 @@ Arayüz ve iş mantığını bir araya getiren ana sınıf.
 Kullanıcı girişini yönetir, film eklemesini sağlar, izleme geçmişini ve favori filmleri görüntüler.
 
 ![p17](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/eb075f47-8ec8-42c2-abba-d25eb950179d)
+İstenilen bilgiler girilip kaydet butonuna basıldıktan sonra öğrencinin adı,soyadı, dersi, ders kaynağı ve öğretmeni bilgileri ekranda çıkar.
+
+Teknik Detaylar
+
+1.EgitimPlatformu sınıfı QMainWindow sınıfından türetilmiştir.
+2.initUI metodu, arayüz öğelerini oluşturur ve pencereye yerleştirir.
+3.kaydet metodu, kullanıcının girdiği bilgileri alır ve bu bilgileri ilgili QLabel'lar üzerinde görüntüler.
+4.QPushButton ve QLineEdit gibi PyQt5 widget'ları kullanılarak arayüz öğeleri oluşturulur ve düzenlenir.
+5.QVBoxLayout kullanılarak dikey bir düzen (layout) oluşturulur ve widget'lar bu düzene eklenir.
+
 ![p18](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/161f960c-7301-4232-972a-ba1035676faa)
 ![p20s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/d9bcb735-e266-4daf-a3a8-9c2e196589c9)
 ![p19s](https://github.com/zenepduran/2300005466-zeynepduran/assets/148756307/32954303-709f-47ba-8372-2f3de0121fdc)
